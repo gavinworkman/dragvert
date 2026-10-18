@@ -1,16 +1,15 @@
 # Dragvert
 
-A native Linux recreation of the **interaction shown in the supplied recording**:
-drop a file on a radial tool wheel, convert it, crop it, or frame it with a background.
+Drop a file on a radial tool wheel, convert it, crop it, or frame it with a background.
 Built with Python, Qt 5, Pillow, Poppler and FFmpeg. Processing is local. No accounts,
 uploads, telemetry or remote services. GPL-3.0, matching this repository's license.
 
 ## Install on Debian / ParrotOS
 
-Download `dragvert_0.1.0_all.deb`, open a terminal in its folder, and run:
+Download the latest release, open a terminal in its folder, and run:
 
 ```sh
-sudo apt install ./dragvert_0.1.0_all.deb
+sudo apt install ./dragvert_0.1.x.deb
 dragvert
 ```
 
